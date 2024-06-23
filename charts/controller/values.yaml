@@ -24,3 +24,5 @@ affinity: {}
 env:
   - name: KB_CLIENT
     value: "client-1"
+  - name: API_KEY
+    value: "dejd8898d8eDGD9343FFFJdwejk"
