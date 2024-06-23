@@ -1,0 +1,26 @@
+replicaCount: 1
+
+image:
+  repository: snk0202/kubeburner-controller
+  tag: v0.1
+  pullPolicy: IfNotPresent
+
+serviceAccount:
+  name: kubeburner-controller-sa
+
+service:
+  type: ClusterIP
+  port: 80
+  targetPort: 3000
+
+resources: {}
+
+nodeSelector: {}
+
+tolerations: []
+
+affinity: {}
+
+env:
+  - name: KB_CLIENT
+    value: "client-1"
