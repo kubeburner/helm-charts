@@ -1,5 +1,5 @@
 apiVersion: v2
-name: kubeburner
+name: kubeburner-controller
 description: A Helm chart for kubeBurner controller
 
 version: 0.1.0
