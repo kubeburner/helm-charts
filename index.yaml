@@ -21,6 +21,15 @@ entries:
     version: 0.1.0
   - apiVersion: v2
     appVersion: "1.0"
+    created: "2024-06-24T05:33:42.071124328Z"
+    description: A Helm chart for kubeBurner controller
+    digest: 135ca5c60faaf38007b63b7e3f1ea9920ff166f8bfa72f089f48ea08fb46e4d0
+    name: controller
+    urls:
+    - https://github.com/kubeburner/helm-charts/releases/download/controller-0.0.2/controller-0.0.2.tgz
+    version: 0.0.2
+  - apiVersion: v2
+    appVersion: "1.0"
     created: "2024-06-24T05:07:09.630673143Z"
     description: A Helm chart for kubeBurner controller
     digest: 9ac2fe1f7136da68fb5321fab090e1c31598ee0eef82bc3827f35cca4e3bdbe1
@@ -48,4 +57,4 @@ entries:
     urls:
     - https://github.com/kubeburner/helm-charts/releases/download/kubeburner-controller-0.1.0/kubeburner-controller-0.1.0.tgz
     version: 0.1.0
-generated: "2024-06-24T05:07:09.630685947Z"
+generated: "2024-06-24T05:33:42.071144586Z"
