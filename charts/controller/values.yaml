@@ -2,7 +2,7 @@ replicaCount: 1
 
 image:
   repository: snk0202/kubeburner-controller
-  tag: v0.1
+  tag: 26dff4a
   pullPolicy: IfNotPresent
 
 serviceAccount:
@@ -25,4 +25,6 @@ env:
   - name: KB_CLIENT
     value: "client-1"
   - name: API_KEY
-    value: "dejd8898d8eDGD9343FFFJdwejk"
+    value: "KBR_389hjhfhjHET56BDhfnfehj3nfnjd"
+  - name: CLUSTER_NAME
+    value: "dev-stage-cluster"
