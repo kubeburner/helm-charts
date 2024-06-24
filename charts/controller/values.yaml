@@ -2,7 +2,7 @@ replicaCount: 1
 
 image:
   repository: snk0202/kubeburner-controller
-  tag: 26dff4a
+  tag: d8e2245
   pullPolicy: IfNotPresent
 
 serviceAccount:

@@ -10,9 +10,12 @@ Once Helm has been set up correctly, add the repo as follows:
 If you had already added this repo earlier, run `helm repo update` to retrieve
 the latest versions of the packages.  You can then run `helm search repo kubeburner` to see the charts.
 
+
 To install the kubeburner chart:
 
-    helm install my-<chart-name> kubeburner/controller
+    Get the values.yaml file from the KubeBurner Dashboard    
+
+    helm install my-<chart-name> kubeburner/controller -f values.yaml -n kubeburner --create-namespace
 
 To uninstall the chart:
 
